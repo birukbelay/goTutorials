@@ -1,0 +1,6 @@
+Generate RSA signing files via shell:
+
+$ openssl genrsa -out app.rsa 1024
+$ openssl rsa -in app.rsa -pubout > app.rsa.pub
+
+e is 65537 (0x010001)
